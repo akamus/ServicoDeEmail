@@ -1,0 +1,5 @@
+/nbproject/
+/tests/
+/vendor/
+/app.config/email.ini
+/.phpdoc

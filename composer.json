@@ -1,0 +1,19 @@
+{
+    "description": "Serviço de Email",
+    "name": "aureosouto/email",
+    "type": "project",
+    "config": {
+        "platform-check": false
+    },
+    "require": {
+        "php": ">=7.1",
+        "swiftmailer/swiftmailer": "^6.2",
+        "bramus/router": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "app.models/",
+            "Helpers\\": "app.utils/helpers/"
+        }
+    }
+}

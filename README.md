@@ -22,12 +22,17 @@
 - Teste de aplicação : sistema ativo
 
 ~~~
-/
+/              GET
 ~~~
 
 - Teste de envio de e-mail : sistema  enviando
 ~~~
-/send/test
+/send/test      POST
+~~~
+
+- Enviar e-mail : enviar e-mail
+~~~
+/send      POST    
 ~~~
 
 
